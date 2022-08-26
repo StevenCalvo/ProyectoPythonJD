@@ -59,7 +59,9 @@ def seleccion_de_Menu(): #Seleccion del menu del usuario de acuerdo a la opcines
     elif desicion =="2":
         return editar_provedor()
     
-    else: 
+    else:
+        print("lo sentimos opción no disponible ") 
+        print("Intentelo de nuevo")
         return seleccion_de_Menu()
 seleccion_de_Menu() # Actualización de proveedor.
 os.system("cls")
